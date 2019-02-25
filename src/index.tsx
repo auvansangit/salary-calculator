@@ -22,7 +22,7 @@ function renderApp() {
 
 renderApp();
 
-serviceWorker.unregister();
+serviceWorker.register();
 
 if (module.hot) {
   module.hot.accept('./App.tsx', renderApp);
