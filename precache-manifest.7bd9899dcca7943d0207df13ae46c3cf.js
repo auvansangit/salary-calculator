@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/salary-calculator/static/css/main.f1478a59.chunk.css"
   },
   {
-    "revision": "6e7d5f14492e3e99fb50a6b09256dc49",
+    "revision": "c0e4b73c4838311a366b9faa97fc4752",
     "url": "/salary-calculator/index.html"
   }
 ];
