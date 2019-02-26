@@ -264,7 +264,7 @@ export const actionCreators = {
       type: SALARY_CHANGE,
       payload: {
         entity: entity,
-        ...calculateFn({ ...entity })
+        ...calculateFn(entity)
       }
     };
   }

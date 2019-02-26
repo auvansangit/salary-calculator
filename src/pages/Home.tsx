@@ -18,6 +18,8 @@ import { Theme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 import { ArrowRightAltOutlined } from '@material-ui/icons';
 
+import NumericInput from '../components/inputs/NumbericInput';
+
 import {
   GENERAL_MIN_SALARY,
   EMPLOYEE_INSURANCE,
@@ -83,10 +85,6 @@ const Home = () => {
   const handleTextChanged = (event: React.ChangeEvent<HTMLInputElement>) => {
     let targetValue = event.target.value.trim();
 
-    if (targetValue === '') {
-      targetValue = '0';
-    }
-
     setEntity({
       ...entity,
       [event.target.name]: parseFloat(targetValue)
@@ -112,7 +110,11 @@ const Home = () => {
   };
 
   const handleCalculator = (type: boolean) => {
-    actions.change(entity, type);
+    let data = {
+      ...entity,
+      income: entity.income.toString() == 'NaN' ? 0 : entity.income
+    };
+    actions.change(data, type);
   };
 
   const formatCurrency = (value: Number) => {
@@ -181,9 +183,11 @@ const Home = () => {
           label={t('income')}
           margin="normal"
           name="income"
-          type="number"
           value={entity.income}
           onChange={handleTextChanged}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
       </Paper>
       <Typography component="h3" variant="h6">
@@ -220,10 +224,12 @@ const Home = () => {
               className={classes.textBox}
               margin="normal"
               name="baseSalary"
-              type="number"
               disabled={entity.baseInsurance}
               value={entity.baseSalary}
               onChange={handleTextChanged}
+              InputProps={{
+                inputComponent: NumericInput as any
+              }}
             />
           }
           label=""
@@ -235,32 +241,40 @@ const Home = () => {
           label={t('minimumWage')}
           margin="normal"
           name="minSalary"
-          type="number"
           value={GENERAL_MIN_SALARY}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
         <TextField
           className={classes.textBox}
           label={t('social')}
           margin="normal"
           name="socialInsurance"
-          type="number"
           value={EMPLOYEE_INSURANCE.SOCIAL}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
         <TextField
           className={classes.textBox}
           label={t('health')}
           margin="normal"
           name="healthInsurance"
-          type="number"
           value={EMPLOYEE_INSURANCE.HEALTH}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
         <TextField
           className={classes.textBox}
           label={t('unemployee')}
           margin="normal"
           name="unemployeeInsurance"
-          type="number"
           value={EMPLOYEE_INSURANCE.UNEMPLOYEE}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
       </Paper>
       <Paper className={classes.section}>
@@ -322,24 +336,30 @@ const Home = () => {
           label={t('personal')}
           margin="normal"
           name="reductionForPersonal"
-          type="number"
           value={REDUCTION_FOR_PERSONAL}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
         <TextField
           label={t('dependant')}
           margin="normal"
           name="reductionForDependant"
-          type="number"
           value={REDUCTION_FOR_DEPENDANT}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
         <TextField
           className={classes.textBox}
           label={t('noDependant')}
           margin="normal"
           name="numberOfDependant"
-          type="number"
           value={entity.numberOfDependant}
           onChange={handleTextChanged}
+          InputProps={{
+            inputComponent: NumericInput as any
+          }}
         />
       </Paper>
       <div className={classes.sectionAction}>

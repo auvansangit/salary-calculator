@@ -5,7 +5,7 @@ import { AppBar, Toolbar, Grid, Link, IconButton } from '@material-ui/core';
 import { Theme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 
-import LinkButton from '../button/LinkButton';
+import LinkButton from '../buttons/LinkButton';
 import GitHub from '../icons/GitHub';
 import Twitter from '../icons/Twitter';
 
