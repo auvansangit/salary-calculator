@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://auvansang.github.io/salary-calculator/precache-manifest.9f7d0206434af690e72bb3f653315b72.js"
+  "/salary-calculator/precache-manifest.4e97e8cdc7414f021422ac8c1a4fb004.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://auvansang.github.io/salary-calculator/index.html", {
+workbox.routing.registerNavigationRoute("/salary-calculator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

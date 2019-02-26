@@ -1,13 +1,13 @@
 {
-  "static/js/0.3886d86a.chunk.js": "https://auvansang.github.io/salary-calculator/static/js/0.3886d86a.chunk.js",
-  "main.css": "https://auvansang.github.io/salary-calculator/static/css/main.0ce296fc.chunk.css",
-  "main.js": "https://auvansang.github.io/salary-calculator/static/js/main.fefa3229.chunk.js",
-  "runtime~main.js": "https://auvansang.github.io/salary-calculator/static/js/runtime~main.52efa790.js",
-  "static/js/3.9674457a.chunk.js": "https://auvansang.github.io/salary-calculator/static/js/3.9674457a.chunk.js",
-  "static/js/4.0fefe8ca.chunk.js": "https://auvansang.github.io/salary-calculator/static/js/4.0fefe8ca.chunk.js",
-  "static/js/5.8ebbff0c.chunk.js": "https://auvansang.github.io/salary-calculator/static/js/5.8ebbff0c.chunk.js",
-  "static/js/6.e8b9b815.chunk.js": "https://auvansang.github.io/salary-calculator/static/js/6.e8b9b815.chunk.js",
-  "index.html": "https://auvansang.github.io/salary-calculator/index.html",
-  "precache-manifest.9f7d0206434af690e72bb3f653315b72.js": "https://auvansang.github.io/salary-calculator/precache-manifest.9f7d0206434af690e72bb3f653315b72.js",
-  "service-worker.js": "https://auvansang.github.io/salary-calculator/service-worker.js"
+  "static/js/0.3886d86a.chunk.js": "/salary-calculator/static/js/0.3886d86a.chunk.js",
+  "main.css": "/salary-calculator/static/css/main.0ce296fc.chunk.css",
+  "main.js": "/salary-calculator/static/js/main.6225098c.chunk.js",
+  "runtime~main.js": "/salary-calculator/static/js/runtime~main.daef018d.js",
+  "static/js/3.e5cf85ba.chunk.js": "/salary-calculator/static/js/3.e5cf85ba.chunk.js",
+  "static/js/4.0fefe8ca.chunk.js": "/salary-calculator/static/js/4.0fefe8ca.chunk.js",
+  "static/js/5.925a3e6b.chunk.js": "/salary-calculator/static/js/5.925a3e6b.chunk.js",
+  "static/js/6.e8b9b815.chunk.js": "/salary-calculator/static/js/6.e8b9b815.chunk.js",
+  "index.html": "/salary-calculator/index.html",
+  "precache-manifest.4e97e8cdc7414f021422ac8c1a4fb004.js": "/salary-calculator/precache-manifest.4e97e8cdc7414f021422ac8c1a4fb004.js",
+  "service-worker.js": "/salary-calculator/service-worker.js"
 }
