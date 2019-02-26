@@ -75,9 +75,10 @@ const Home = () => {
 
     return entity;
   });
+
   const [state, actions] = useLocalState(reducer, actionCreators);
-  const classes = useStyles();
   const [t] = useTranslation('homePage');
+  const classes = useStyles();
 
   const handleTextChanged = (event: React.ChangeEvent<HTMLInputElement>) => {
     let targetValue = event.target.value.trim();
@@ -126,7 +127,7 @@ const Home = () => {
   return (
     <>
       <Helmet
-        title={t('pageTitle')}
+        title={t('pageName')}
         meta={[
           {
             name: 'description',
@@ -134,7 +135,7 @@ const Home = () => {
           },
           {
             property: 'og:title',
-            content: `${t('pageTitle')}`
+            content: `${t('pageName')}`
           },
           {
             property: 'og:site_name',
@@ -343,18 +344,18 @@ const Home = () => {
       </Paper>
       <div className={classes.sectionAction}>
         <Button
-          variant={'contained'}
-          color="primary"
-          onClick={() => handleCalculator(false)}
-        >
-          {t('gross')} <ArrowRightAltOutlined /> {t('net')}
-        </Button>
-        <Button
-          variant={'contained'}
+          variant={state.flag ? 'contained' : 'outlined'}
           color="primary"
           onClick={() => handleCalculator(true)}
         >
           {t('net')} <ArrowRightAltOutlined /> {t('gross')}
+        </Button>
+        <Button
+          variant={state.flag ? 'outlined' : 'contained'}
+          color="primary"
+          onClick={() => handleCalculator(false)}
+        >
+          {t('gross')} <ArrowRightAltOutlined /> {t('net')}
         </Button>
       </div>
       <Typography component="h3" variant="h6">

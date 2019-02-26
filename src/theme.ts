@@ -34,7 +34,10 @@ let theme = createMuiTheme({
     }
   },
   typography: {
-    fontFamily: '"Quicksand", sans-serif',
+    fontFamily: '"Muli", sans-serif',
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 600,
     button: {
       textTransform: 'none'
     },

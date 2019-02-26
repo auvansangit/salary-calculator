@@ -180,6 +180,7 @@ const netToGross = (entity: SalaryEntity) => {
     employerInsurance.unemploymentInsurance;
 
   return {
+    flag: true,
     grossSalary,
     socialInsurance: employeeInsurance.socialInsurance,
     healthInsurance: employeeInsurance.healthInsurance,
@@ -230,6 +231,7 @@ const grossToNet = (entity: SalaryEntity) => {
     employerInsurance.unemploymentInsurance;
 
   return {
+    flag: false,
     grossSalary,
     socialInsurance: insurance.socialInsurance,
     healthInsurance: insurance.healthInsurance,
@@ -273,6 +275,7 @@ export const actionCreators = {
 //#region State
 
 export interface State {
+  flag: boolean;
   grossSalary: number;
   socialInsurance: number;
   healthInsurance: number;
@@ -294,6 +297,7 @@ export interface State {
 }
 
 const initialState: State = {
+  flag: true,
   grossSalary: 0,
   socialInsurance: 0,
   healthInsurance: 0,
