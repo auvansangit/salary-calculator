@@ -4,7 +4,7 @@ node_js:
 cache:
   yarn: true
 script:
-  - yarn build
+  - PUBLIC_URL=$PUBLIC_URL GENERATE_SOURCEMAP=$GENERATE_SOURCEMAP yarn build
 deploy:
   provider: pages
   skip-cleanup: true

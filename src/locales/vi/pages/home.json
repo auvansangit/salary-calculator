@@ -1,7 +1,7 @@
 {
-  "pageName": "Sisa - Quy đổi lương giữa Gross và Net",
+  "pageName": "Sisa - Quy đổi lương giữa Gross và Net, tính lương sau thuế, phí bảo hiểm, thuế thu nhập cá nhân",
   "pageTitle": "Quy đổi lương giữa Gross và Net",
-  "pageDescription": "Tính lương sau thuế, phí bảo hiểm xã hội và thuế thu nhập cá nhân",
+  "pageDescription": "Tính lương sau thuế, phí bảo hiểm và thuế thu nhập cá nhân",
   "pageUrl": "https://sisa.cafe/tools/salary-calculator",
   "homePage": "Sisa",
   "income": "Thu nhập",
