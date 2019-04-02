@@ -1,15 +1,15 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import en_home_page_resources from './en/pages/home.json';
-import vi_home_page_resources from './vi/pages/home.json';
+import en_page_home_resources from './en/pages/home.json';
+import vi_page_home_resources from './vi/pages/home.json';
 
 const resources = {
   en: {
-    homePage: en_home_page_resources
+    homePage: en_page_home_resources
   },
   vi: {
-    homePage: vi_home_page_resources
+    homePage: vi_page_home_resources
   }
 };
 

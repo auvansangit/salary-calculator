@@ -35,24 +35,24 @@ import SalaryEntity from '../core/entities/SalaryEntity';
 
 const useStyles = makeStyles((theme: Theme) => ({
   section: {
-    paddingLeft: theme.spacing.unit * 2,
-    paddingRight: theme.spacing.unit * 2,
-    marginTop: theme.spacing.unit * 2,
-    marginBottom: theme.spacing.unit * 2,
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
+    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(2),
 
     '& > div': {
-      marginRight: theme.spacing.unit * 2
+      marginRight: theme.spacing(2)
     },
     '& > label': {
-      marginRight: theme.spacing.unit * 12
+      marginRight: theme.spacing(12)
     }
   },
   sectionAction: {
-    marginTop: theme.spacing.unit * 2,
-    marginBottom: theme.spacing.unit * 2,
+    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(2),
 
     '& > button': {
-      marginRight: theme.spacing.unit * 2
+      marginRight: theme.spacing(2)
     },
 
     '& table tr > td:first-child, & table tr > th:first-child': {
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     }
   },
   textBox: {
-    width: theme.spacing.unit * 18
+    width: theme.spacing(18)
   }
 }));
 

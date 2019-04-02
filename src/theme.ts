@@ -40,8 +40,7 @@ let theme = createMuiTheme({
     fontWeightMedium: 600,
     button: {
       textTransform: 'none'
-    },
-    useNextVariants: true
+    }
   },
   shape: {
     borderRadius: 0
@@ -56,7 +55,7 @@ theme = {
   overrides: {
     MuiIconButton: {
       root: {
-        padding: theme.spacing.unit
+        padding: theme.spacing(1)
       }
     },
     MuiListItemIcon: {

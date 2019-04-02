@@ -1,4 +1,3 @@
-import './bootstrap';
 import './assets/scss/site.scss';
 import './locales/i18n';
 

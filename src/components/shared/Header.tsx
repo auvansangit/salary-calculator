@@ -21,12 +21,12 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex'
   },
   homeButton: {
-    width: theme.spacing.unit * 28,
+    width: theme.spacing(28),
     textAlign: 'center'
   },
   button: {
-    marginLeft: theme.spacing.unit / 2,
-    marginRight: theme.spacing.unit / 2,
+    marginLeft: theme.spacing(0.5),
+    marginRight: theme.spacing(0.5),
     color: '#fff'
   },
   selected: {

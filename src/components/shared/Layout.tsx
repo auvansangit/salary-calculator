@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex'
   },
   container: {
-    margin: `${theme.spacing.unit * 2}px auto`
+    margin: `${theme.spacing(2)}px auto`
   },
   toolbar: theme.mixins.toolbar
 }));
