@@ -1,13 +1,15 @@
 {
-  "static/js/0.162e9cfb.chunk.js": "/salary-calculator/static/js/0.162e9cfb.chunk.js",
-  "main.css": "/salary-calculator/static/css/main.0ce296fc.chunk.css",
-  "main.js": "/salary-calculator/static/js/main.4ce0b3b1.chunk.js",
-  "runtime~main.js": "/salary-calculator/static/js/runtime~main.7b3e1f01.js",
-  "static/js/3.973fbfc9.chunk.js": "/salary-calculator/static/js/3.973fbfc9.chunk.js",
-  "static/js/4.aeb86988.chunk.js": "/salary-calculator/static/js/4.aeb86988.chunk.js",
-  "static/js/5.19ddd22e.chunk.js": "/salary-calculator/static/js/5.19ddd22e.chunk.js",
-  "static/js/6.c98ab92c.chunk.js": "/salary-calculator/static/js/6.c98ab92c.chunk.js",
-  "index.html": "/salary-calculator/index.html",
-  "precache-manifest.87aa2272cd4d8072e20d5011fc0fac35.js": "/salary-calculator/precache-manifest.87aa2272cd4d8072e20d5011fc0fac35.js",
-  "service-worker.js": "/salary-calculator/service-worker.js"
+  "files": {
+    "static/js/0.0c27aa97.chunk.js": "/salary-calculator/static/js/0.0c27aa97.chunk.js",
+    "main.css": "/salary-calculator/static/css/main.0ce296fc.chunk.css",
+    "main.js": "/salary-calculator/static/js/main.8480faf3.chunk.js",
+    "runtime~main.js": "/salary-calculator/static/js/runtime~main.3ee0a2a7.js",
+    "static/js/3.b1d8c1ef.chunk.js": "/salary-calculator/static/js/3.b1d8c1ef.chunk.js",
+    "static/js/4.ebedfa44.chunk.js": "/salary-calculator/static/js/4.ebedfa44.chunk.js",
+    "static/js/5.f123c974.chunk.js": "/salary-calculator/static/js/5.f123c974.chunk.js",
+    "static/js/6.5bff3398.chunk.js": "/salary-calculator/static/js/6.5bff3398.chunk.js",
+    "index.html": "/salary-calculator/index.html",
+    "precache-manifest.eb38496a36f6336a73f75745ae7c16b3.js": "/salary-calculator/precache-manifest.eb38496a36f6336a73f75745ae7c16b3.js",
+    "service-worker.js": "/salary-calculator/service-worker.js"
+  }
 }
