@@ -18,7 +18,7 @@ import { Theme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 import { ArrowRightAltOutlined } from '@material-ui/icons';
 
-import NumericInput from '../components/inputs/NumbericInput';
+import NumericInput from 'components/inputs/NumbericInput';
 
 import {
   GENERAL_MIN_SALARY,
@@ -27,11 +27,11 @@ import {
   REDUCTION_FOR_PERSONAL,
   REDUCTION_FOR_DEPENDANT,
   TAX_RANGE_DETAIL
-} from '../core/constants/SalaryConstant';
+} from 'core/constants/SalaryConstant';
 
-import useLocalState from '../utils/store/useLocalState';
-import { reducer, actionCreators } from '../store/Salary';
-import SalaryEntity from '../core/entities/SalaryEntity';
+import useLocalState from 'utils/store/useLocalState';
+import { reducer, actionCreators } from 'store/Salary';
+import SalaryEntity from 'core/entities/SalaryEntity';
 
 const useStyles = makeStyles((theme: Theme) => ({
   section: {
@@ -96,7 +96,7 @@ const Home = () => {
   ) => {
     setEntity({
       ...entity,
-      [event.target.name]: event.target.value == 'true'
+      [event.target.name]: event.target.value === 'true'
     });
   };
 
@@ -112,7 +112,7 @@ const Home = () => {
   const handleCalculator = (type: boolean) => {
     let data = {
       ...entity,
-      income: entity.income.toString() == 'NaN' ? 0 : entity.income
+      income: entity.income.toString() === 'NaN' ? 0 : entity.income
     };
     actions.change(data, type);
   };

@@ -14,8 +14,8 @@ const useLocalState = <S, A extends { [key: string]: any }>(
     const retActions = {} as A;
 
     Object.keys(actionCreators).forEach(key => {
-      retActions[key] = (...args: any[]) => {
-        const action = actionCreators[key](...args);
+      retActions[key] = async (...args: any[]) => {
+        const action = await actionCreators[key](...args);
 
         if (typeof action === 'function') {
           action(dispatch, state);

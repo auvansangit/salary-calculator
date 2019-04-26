@@ -6,7 +6,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import theme from './theme';
 
-import { ErrorBoundary, Loading } from './components/shared';
+import { ErrorBoundary, Loading } from 'components/shared';
 import routes from './routes';
 
 const baseUrl = process.env.PUBLIC_URL;

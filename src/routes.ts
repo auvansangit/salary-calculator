@@ -1,10 +1,9 @@
 import { RouteConfig } from 'react-router-config';
 
-import { withLazy, Layout } from './components/shared';
+import { lazyLoad, Layout } from 'components/shared';
 
-const Home = withLazy(() => import('./pages/Home'));
-
-const NotFound = withLazy(() => import('./pages/NotFound'));
+const Home = lazyLoad(() => import('pages/Home'));
+const NotFound = lazyLoad(() => import('pages/NotFound'));
 
 const routes: RouteConfig[] = [
   {

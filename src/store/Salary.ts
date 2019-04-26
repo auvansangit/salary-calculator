@@ -1,5 +1,5 @@
-import createReducer from '../utils/store/createReducer';
-import SalaryEntity from '../core/entities/SalaryEntity';
+import createReducer from 'utils/store/createReducer';
+import SalaryEntity from 'core/entities/SalaryEntity';
 import {
   MAXSOCIAL_AND_HEALTH_INSURANCE,
   MIN_SALARY_RANGE,
@@ -9,7 +9,7 @@ import {
   REDUCTION_FOR_DEPENDANT,
   EMPLOYEE_INSURANCE,
   EMPLOYER_INSURANCE
-} from '../core/constants/SalaryConstant';
+} from 'core/constants/SalaryConstant';
 
 //#region Action
 

@@ -5,9 +5,9 @@ import { AppBar, Toolbar, Grid, Link, IconButton } from '@material-ui/core';
 import { Theme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 
-import LinkButton from '../buttons/LinkButton';
-import GitHub from '../icons/GitHub';
-import Twitter from '../icons/Twitter';
+import LinkButton from 'components/buttons/LinkButton';
+import GitHub from 'components/icons/GitHub';
+import Twitter from 'components/icons/Twitter';
 
 const useStyles = makeStyles((theme: Theme) => ({
   grow: {
