@@ -26,7 +26,7 @@ const useLocalState = <S, A extends { [key: string]: any }>(
     });
 
     return retActions;
-  }, [actionCreators]);
+  }, [actionCreators, state]);
 
   return [state, actions];
 };

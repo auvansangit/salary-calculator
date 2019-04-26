@@ -253,17 +253,16 @@ const grossToNet = (entity: SalaryEntity) => {
 };
 
 export const actionCreators = {
-  change: (entity: SalaryEntity, type: boolean) => {
+  change: (entity: SalaryEntity, type: boolean): ChangeAction => {
     let calculateFn = netToGross;
 
     if (!type) {
       calculateFn = grossToNet;
     }
 
-    return <ChangeAction>{
+    return {
       type: SALARY_CHANGE,
       payload: {
-        entity: entity,
         ...calculateFn(entity)
       }
     };
