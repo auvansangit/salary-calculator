@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/salary-calculator/precache-manifest.eb38496a36f6336a73f75745ae7c16b3.js"
+  "/salary-calculator/precache-manifest.ee87540594b889df1a61a5d7f33ea136.js"
 );
 
 self.addEventListener('message', (event) => {
