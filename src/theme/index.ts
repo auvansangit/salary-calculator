@@ -1,29 +1,60 @@
-import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
+import createTheme from './createTheme';
 
 // create a theme instance.
-let theme = createMuiTheme({
+let theme = createTheme({
   props: {
     MuiButtonBase: {
       disableRipple: true
     }
   },
   palette: {
+    // Blue
+    // primary: {
+    //   light: '#589ffc',
+    //   main: '#3e8ef7',
+    //   dark: '#247cf0',
+    //   contrastText: '#fff'
+    // },
+    // Green
     primary: {
-      light: '#26c281',
-      main: '#3fc380',
-      dark: '#4daf7c',
+      light: '#28d17c',
+      main: '#11c26d',
+      dark: '#05a85c',
       contrastText: '#fff'
     },
+    // Cyan
     secondary: {
-      light: '#29f1c3',
-      main: '#36d7b7',
-      dark: '#4ecdc4',
+      light: '#28c0de',
+      main: '#0bb2d4',
+      dark: '#0099b8',
       contrastText: '#fff'
     },
+    // Green
+    success: {
+      light: '#28d17c',
+      main: '#11c26d',
+      dark: '#05a85c',
+      contrastText: '#fff'
+    },
+    // Cyan
+    info: {
+      light: '#28c0de',
+      main: '#0bb2d4',
+      dark: '#0099b8',
+      contrastText: '#fff'
+    },
+    // Orange
+    warning: {
+      light: '#f57d1b',
+      main: '#eb6709',
+      dark: '#e79857',
+      contrastText: 'fff'
+    },
+    // Red
     error: {
-      light: '#f89406',
-      main: '#f9690e',
-      dark: '#d35400',
+      light: '#ff666b',
+      main: '#ff4c52',
+      dark: '#f2353c',
       contrastText: '#fff'
     },
     text: {
@@ -31,7 +62,8 @@ let theme = createMuiTheme({
       secondary: '#2e3131',
       disabled: '#dadfe1',
       hint: '#abb7b7'
-    }
+    },
+    type: 'light'
   },
   typography: {
     fontFamily: '"Muli", sans-serif',
@@ -61,7 +93,7 @@ theme = {
     MuiListItemIcon: {
       root: {
         color: 'inherit',
-        marginRight: 0
+        minWidth: 32
       }
     },
     MuiSvgIcon: {
@@ -69,8 +101,7 @@ theme = {
         fontSize: 20
       }
     }
-  },
-  shadows: theme.shadows.fill(`0 0 0 1px ${theme.palette.grey[300]}`)
+  }
 };
 
 export default theme;

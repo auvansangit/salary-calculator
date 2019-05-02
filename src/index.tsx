@@ -1,8 +1,8 @@
-import './assets/scss/site.scss';
+import './static/scss/site.scss';
 import './locales/i18n';
 
 import React from 'react';
-import ReactDom from 'react-dom';
+import { render, hydrate } from 'react-dom';
 
 import App from './App';
 
@@ -10,10 +10,10 @@ import * as serviceWorker from './serviceWorker';
 
 function renderApp() {
   const rootElement = document.getElementById('root')!;
-  let renderFn = ReactDom.render;
+  let renderFn = render;
 
   if (rootElement.hasChildNodes()) {
-    renderFn = ReactDom.hydrate;
+    renderFn = hydrate;
   }
 
   renderFn(<App />, rootElement);

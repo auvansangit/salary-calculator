@@ -1,9 +1,9 @@
 {
-  "pageName": "Sisa - Salary Calculator",
+  "pageName": "Salary after tax calculator",
   "pageTitle": "Salary after Tax Calculator",
   "pageDescription": "Find how much your salary is after tax",
   "pageUrl": "https://sisa.cafe/tools/salary-calculator",
-  "homePage": "Sisa",
+  "homePage": "Salary Calculator",
   "income": "Income",
   "insurance": "Insurance",
   "fullWange": "Full wange",

@@ -18,7 +18,7 @@ import { Theme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 import { ArrowRightAltOutlined } from '@material-ui/icons';
 
-import NumericInput from 'components/inputs/NumbericInput';
+import NumericInput from 'components/shared/inputs/NumbericInput';
 
 import {
   GENERAL_MIN_SALARY,
@@ -364,14 +364,14 @@ const Home = () => {
       </Paper>
       <div className={classes.sectionAction}>
         <Button
-          variant={state.flag ? 'contained' : 'outlined'}
+          variant="contained"
           color="primary"
           onClick={() => handleCalculator(true)}
         >
           {t('net')} <ArrowRightAltOutlined /> {t('gross')}
         </Button>
         <Button
-          variant={state.flag ? 'outlined' : 'contained'}
+          variant="contained"
           color="primary"
           onClick={() => handleCalculator(false)}
         >
