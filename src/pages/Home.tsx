@@ -157,7 +157,7 @@ const Home = () => {
           },
           {
             property: 'og:image',
-            content: `http://localhost:8000/favicon.ico`
+            content: `${t('pageUrl')}/screenshot-1280x640.png`
           }
         ]}
         link={[

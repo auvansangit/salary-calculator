@@ -72,6 +72,7 @@ const Header = () => {
             <LinkButton
               variant="outlined"
               to={'/'}
+              rel="noreferrer"
               className={classes.homeButton}
               exact={true}
               activeClassName={classes.selected}
