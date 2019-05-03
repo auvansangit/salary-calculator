@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c53a0e2e58ad6024540a29612c7fc64",
+    "revision": "22d5594cf5c86e68ae3c3590032625f5",
     "url": "/salary-calculator/index.html"
   },
   {
-    "revision": "710a6058f50184212c4a",
+    "revision": "faa11af669377bede6a2",
     "url": "/salary-calculator/static/css/main.0ce296fc.chunk.css"
   },
   {
@@ -20,19 +20,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salary-calculator/static/js/4.64e761f8.chunk.js"
   },
   {
-    "revision": "4259e114d5661b1fe3f0",
-    "url": "/salary-calculator/static/js/5.ca24e371.chunk.js"
+    "revision": "6947f2853324c3b60fcd",
+    "url": "/salary-calculator/static/js/5.97c59735.chunk.js"
   },
   {
     "revision": "3aec21822d9a7149d43b",
     "url": "/salary-calculator/static/js/6.06f58088.chunk.js"
   },
   {
-    "revision": "710a6058f50184212c4a",
-    "url": "/salary-calculator/static/js/main.b9cf4c68.chunk.js"
+    "revision": "faa11af669377bede6a2",
+    "url": "/salary-calculator/static/js/main.62290729.chunk.js"
   },
   {
-    "revision": "a3f026d2793b71f656d9",
-    "url": "/salary-calculator/static/js/runtime~main.2b5565f4.js"
+    "revision": "0b911ff9cdd3a02bf6a7",
+    "url": "/salary-calculator/static/js/runtime~main.068d8e6b.js"
   }
 ]);
