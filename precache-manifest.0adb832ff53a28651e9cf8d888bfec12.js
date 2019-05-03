@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22d5594cf5c86e68ae3c3590032625f5",
+    "revision": "ff1c3ec20d21a24500951c0988793c90",
     "url": "/salary-calculator/index.html"
   },
   {
-    "revision": "faa11af669377bede6a2",
+    "revision": "32ce8413a83ac59b47f4",
     "url": "/salary-calculator/static/css/main.0ce296fc.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salary-calculator/static/js/6.06f58088.chunk.js"
   },
   {
-    "revision": "faa11af669377bede6a2",
-    "url": "/salary-calculator/static/js/main.62290729.chunk.js"
+    "revision": "32ce8413a83ac59b47f4",
+    "url": "/salary-calculator/static/js/main.dae28f65.chunk.js"
   },
   {
     "revision": "0b911ff9cdd3a02bf6a7",
