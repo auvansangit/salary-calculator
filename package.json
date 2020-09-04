@@ -44,7 +44,7 @@
 		"gh-pages": "^2.0.1",
 		"husky": "^2.2.0",
 		"lint-staged": "^8.1.5",
-		"node-sass": "^4.12.0",
+		"node-sass": "^4.13.1",
 		"prettier": "^1.17.0",
 		"react-scripts": "3.0.0",
 		"react-snap": "^1.23.0",
